@@ -382,7 +382,7 @@ def process_mian(folder_path):
             count=deal_xyz_files_main_tqdm(TARGET_BASE,deepmd_data_dir,count)
             i+=1
         
-folder_path = '/home/shuhua01/suchaoxu/work/mdcdnn/data3/CHEMBL_selected_data'
+folder_path = './ChemBel_data'
 process_mian(folder_path)    
 
 
