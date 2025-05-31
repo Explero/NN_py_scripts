@@ -381,7 +381,8 @@ def process_mian(folder_path):
             #print(TARGET_BASE)
             count=deal_xyz_files_main_tqdm(TARGET_BASE,deepmd_data_dir,count)
             i+=1
-        
+
+#how to use,a example
 folder_path = './ChemBel_data'
 process_mian(folder_path)    
 
